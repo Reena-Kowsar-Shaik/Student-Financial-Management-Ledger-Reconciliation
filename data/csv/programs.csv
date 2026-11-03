@@ -1,0 +1,21 @@
+program_id,name,degree_level,department,credits_required,base_tuition_per_credit,mandatory_fee,lab_fee_per_credit,is_active
+PRG-001,B.S. in Computer Science,UNDERGRADUATE,School of Computing,120,520.0,350.0,45.0,True
+PRG-002,B.S. in Artificial Intelligence,UNDERGRADUATE,School of Computing,120,540.0,350.0,60.0,True
+PRG-003,B.S. in Data Science,UNDERGRADUATE,School of Computing,120,530.0,350.0,50.0,True
+PRG-004,B.S. in Cybersecurity,UNDERGRADUATE,School of Computing,120,510.0,350.0,40.0,True
+PRG-005,B.S. in Electrical Engineering,UNDERGRADUATE,School of Engineering,128,550.0,400.0,75.0,True
+PRG-006,B.S. in Mechanical Engineering,UNDERGRADUATE,School of Engineering,128,550.0,400.0,75.0,True
+PRG-007,B.S. in Biomedical Engineering,UNDERGRADUATE,School of Engineering,128,560.0,420.0,80.0,True
+PRG-008,B.S. in Business Administration,UNDERGRADUATE,School of Business,120,480.0,300.0,15.0,True
+PRG-009,B.S. in Finance & FinTech,UNDERGRADUATE,School of Business,120,500.0,320.0,25.0,True
+PRG-010,B.S. in Biotechnology,UNDERGRADUATE,School of Sciences,120,510.0,380.0,70.0,True
+PRG-011,M.S. in Computer Science,GRADUATE,School of Computing,36,780.0,450.0,65.0,True
+PRG-012,M.S. in Machine Learning & AI,GRADUATE,School of Computing,36,820.0,480.0,85.0,True
+PRG-013,M.S. in Data Engineering,GRADUATE,School of Computing,36,790.0,450.0,70.0,True
+PRG-014,M.S. in Cybersecurity Operations,GRADUATE,School of Computing,36,770.0,450.0,60.0,True
+PRG-015,M.S. in Robotics & Autonomous Systems,GRADUATE,School of Engineering,36,830.0,500.0,95.0,True
+PRG-016,Master of Business Administration (MBA),GRADUATE,School of Business,48,920.0,550.0,30.0,True
+PRG-017,M.S. in Health Informatics,GRADUATE,School of Health,36,750.0,420.0,45.0,True
+PRG-018,Ph.D. in Computer Science,DOCTORAL,School of Computing,72,850.0,300.0,50.0,True
+PRG-019,Ph.D. in Artificial Intelligence,DOCTORAL,School of Computing,72,870.0,300.0,50.0,True
+PRG-020,Ph.D. in Bioengineering,DOCTORAL,School of Engineering,72,880.0,300.0,60.0,True

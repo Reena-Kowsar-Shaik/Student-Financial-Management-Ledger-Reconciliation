@@ -1,0 +1,252 @@
+[
+  {
+    "ground_truth_id": "GT-ERR-1-001",
+    "anomaly_type": "PAYMENT_OVERALLOCATION",
+    "entity_type": "Payment",
+    "entity_id": "PAY-2026-000001",
+    "student_id": "STU-000001",
+    "expected_rule": "Payment allocated amount must be <= total payment amount",
+    "actual_value": "Total: $2855.00, Allocated: $3355.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-1-002",
+    "anomaly_type": "PAYMENT_OVERALLOCATION",
+    "entity_type": "Payment",
+    "entity_id": "PAY-2026-000002",
+    "student_id": "STU-000001",
+    "expected_rule": "Payment allocated amount must be <= total payment amount",
+    "actual_value": "Total: $925.00, Allocated: $1425.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-1-003",
+    "anomaly_type": "PAYMENT_OVERALLOCATION",
+    "entity_type": "Payment",
+    "entity_id": "PAY-2026-000003",
+    "student_id": "STU-000002",
+    "expected_rule": "Payment allocated amount must be <= total payment amount",
+    "actual_value": "Total: $4145.00, Allocated: $4645.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-1-004",
+    "anomaly_type": "PAYMENT_OVERALLOCATION",
+    "entity_type": "Payment",
+    "entity_id": "PAY-2026-000004",
+    "student_id": "STU-000002",
+    "expected_rule": "Payment allocated amount must be <= total payment amount",
+    "actual_value": "Total: $6065.00, Allocated: $6565.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-1-005",
+    "anomaly_type": "PAYMENT_OVERALLOCATION",
+    "entity_type": "Payment",
+    "entity_id": "PAY-2026-000005",
+    "student_id": "STU-000003",
+    "expected_rule": "Payment allocated amount must be <= total payment amount",
+    "actual_value": "Total: $11609.00, Allocated: $12109.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-2-001",
+    "anomaly_type": "SCHOLARSHIP_EXCEEDS_FEES",
+    "entity_type": "Eligibility",
+    "entity_id": "AWD-2026-000004",
+    "student_id": "STU-000004",
+    "expected_rule": "Scholarship award amount cannot exceed eligible tuition/fees",
+    "actual_value": "Eligible: $6120.00, Awarded: $10620.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-2-002",
+    "anomaly_type": "SCHOLARSHIP_EXCEEDS_FEES",
+    "entity_type": "Eligibility",
+    "entity_id": "AWD-2026-000005",
+    "student_id": "STU-000005",
+    "expected_rule": "Scholarship award amount cannot exceed eligible tuition/fees",
+    "actual_value": "Eligible: $6600.00, Awarded: $11100.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-2-003",
+    "anomaly_type": "SCHOLARSHIP_EXCEEDS_FEES",
+    "entity_type": "Eligibility",
+    "entity_id": "AWD-2026-000006",
+    "student_id": "STU-000006",
+    "expected_rule": "Scholarship award amount cannot exceed eligible tuition/fees",
+    "actual_value": "Eligible: $7500.00, Awarded: $12000.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-2-004",
+    "anomaly_type": "SCHOLARSHIP_EXCEEDS_FEES",
+    "entity_type": "Eligibility",
+    "entity_id": "AWD-2026-000007",
+    "student_id": "STU-000008",
+    "expected_rule": "Scholarship award amount cannot exceed eligible tuition/fees",
+    "actual_value": "Eligible: $15642.00, Awarded: $20142.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-2-005",
+    "anomaly_type": "SCHOLARSHIP_EXCEEDS_FEES",
+    "entity_type": "Eligibility",
+    "entity_id": "AWD-2026-000008",
+    "student_id": "STU-000009",
+    "expected_rule": "Scholarship award amount cannot exceed eligible tuition/fees",
+    "actual_value": "Eligible: $21168.00, Awarded: $25668.00",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-3-001",
+    "anomaly_type": "DUPLICATE_INVOICE",
+    "entity_type": "Invoice",
+    "entity_id": "INV-DUP-INV-STU-000223-2026-000210",
+    "student_id": "STU-000223",
+    "expected_rule": "Only one active invoice per enrollment and term is permitted",
+    "actual_value": "Duplicate invoice INV-DUP-INV-STU-000223-2026-000210 generated alongside INV-STU-000223-2026-000210",
+    "severity": "MEDIUM"
+  },
+  {
+    "ground_truth_id": "GT-ERR-3-002",
+    "anomaly_type": "DUPLICATE_INVOICE",
+    "entity_type": "Invoice",
+    "entity_id": "INV-DUP-INV-STU-000407-2026-000386",
+    "student_id": "STU-000407",
+    "expected_rule": "Only one active invoice per enrollment and term is permitted",
+    "actual_value": "Duplicate invoice INV-DUP-INV-STU-000407-2026-000386 generated alongside INV-STU-000407-2026-000386",
+    "severity": "MEDIUM"
+  },
+  {
+    "ground_truth_id": "GT-ERR-3-003",
+    "anomaly_type": "DUPLICATE_INVOICE",
+    "entity_type": "Invoice",
+    "entity_id": "INV-DUP-INV-STU-000745-2026-000701",
+    "student_id": "STU-000745",
+    "expected_rule": "Only one active invoice per enrollment and term is permitted",
+    "actual_value": "Duplicate invoice INV-DUP-INV-STU-000745-2026-000701 generated alongside INV-STU-000745-2026-000701",
+    "severity": "MEDIUM"
+  },
+  {
+    "ground_truth_id": "GT-ERR-3-004",
+    "anomaly_type": "DUPLICATE_INVOICE",
+    "entity_type": "Invoice",
+    "entity_id": "INV-DUP-INV-STU-000382-2026-001260",
+    "student_id": "STU-000382",
+    "expected_rule": "Only one active invoice per enrollment and term is permitted",
+    "actual_value": "Duplicate invoice INV-DUP-INV-STU-000382-2026-001260 generated alongside INV-STU-000382-2026-001260",
+    "severity": "MEDIUM"
+  },
+  {
+    "ground_truth_id": "GT-ERR-3-005",
+    "anomaly_type": "DUPLICATE_INVOICE",
+    "entity_type": "Invoice",
+    "entity_id": "INV-DUP-INV-STU-000499-2026-001359",
+    "student_id": "STU-000499",
+    "expected_rule": "Only one active invoice per enrollment and term is permitted",
+    "actual_value": "Duplicate invoice INV-DUP-INV-STU-000499-2026-001359 generated alongside INV-STU-000499-2026-001359",
+    "severity": "MEDIUM"
+  },
+  {
+    "ground_truth_id": "GT-ERR-4-001",
+    "anomaly_type": "REFUND_EXCEEDS_NET_PAID",
+    "entity_type": "Refund",
+    "entity_id": "REF-ERR-001",
+    "student_id": "STU-000007",
+    "expected_rule": "Refund amount cannot exceed net settled payments",
+    "actual_value": "Settled: $31458.50, Refunded: $32958.50",
+    "severity": "CRITICAL"
+  },
+  {
+    "ground_truth_id": "GT-ERR-4-002",
+    "anomaly_type": "REFUND_EXCEEDS_NET_PAID",
+    "entity_type": "Refund",
+    "entity_id": "REF-ERR-002",
+    "student_id": "STU-000010",
+    "expected_rule": "Refund amount cannot exceed net settled payments",
+    "actual_value": "Settled: $4598.75, Refunded: $6098.75",
+    "severity": "CRITICAL"
+  },
+  {
+    "ground_truth_id": "GT-ERR-4-003",
+    "anomaly_type": "REFUND_EXCEEDS_NET_PAID",
+    "entity_type": "Refund",
+    "entity_id": "REF-ERR-003",
+    "student_id": "STU-000011",
+    "expected_rule": "Refund amount cannot exceed net settled payments",
+    "actual_value": "Settled: $9248.25, Refunded: $10748.25",
+    "severity": "CRITICAL"
+  },
+  {
+    "ground_truth_id": "GT-ERR-4-004",
+    "anomaly_type": "REFUND_EXCEEDS_NET_PAID",
+    "entity_type": "Refund",
+    "entity_id": "REF-ERR-004",
+    "student_id": "STU-000012",
+    "expected_rule": "Refund amount cannot exceed net settled payments",
+    "actual_value": "Settled: $10210.00, Refunded: $11710.00",
+    "severity": "CRITICAL"
+  },
+  {
+    "ground_truth_id": "GT-ERR-4-005",
+    "anomaly_type": "REFUND_EXCEEDS_NET_PAID",
+    "entity_type": "Refund",
+    "entity_id": "REF-ERR-005",
+    "student_id": "STU-000013",
+    "expected_rule": "Refund amount cannot exceed net settled payments",
+    "actual_value": "Settled: $11025.00, Refunded: $12525.00",
+    "severity": "CRITICAL"
+  },
+  {
+    "ground_truth_id": "GT-ERR-5-001",
+    "anomaly_type": "BALANCE_LEDGER_DISCREPANCY",
+    "entity_type": "Student",
+    "entity_id": "STU-000014",
+    "student_id": "STU-000014",
+    "expected_rule": "Student invoice balances must equal double-entry ledger net balance",
+    "actual_value": "Corrupted balance on invoice INV-STU-000014-2026-001789 creating discrepancy",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-5-002",
+    "anomaly_type": "BALANCE_LEDGER_DISCREPANCY",
+    "entity_type": "Student",
+    "entity_id": "STU-000015",
+    "student_id": "STU-000015",
+    "expected_rule": "Student invoice balances must equal double-entry ledger net balance",
+    "actual_value": "Corrupted balance on invoice INV-STU-000015-2026-000951 creating discrepancy",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-5-003",
+    "anomaly_type": "BALANCE_LEDGER_DISCREPANCY",
+    "entity_type": "Student",
+    "entity_id": "STU-000016",
+    "student_id": "STU-000016",
+    "expected_rule": "Student invoice balances must equal double-entry ledger net balance",
+    "actual_value": "Corrupted balance on invoice INV-STU-000016-2026-000952 creating discrepancy",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-5-004",
+    "anomaly_type": "BALANCE_LEDGER_DISCREPANCY",
+    "entity_type": "Student",
+    "entity_id": "STU-000017",
+    "student_id": "STU-000017",
+    "expected_rule": "Student invoice balances must equal double-entry ledger net balance",
+    "actual_value": "Corrupted balance on invoice INV-STU-000017-2026-000015 creating discrepancy",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-ERR-5-005",
+    "anomaly_type": "BALANCE_LEDGER_DISCREPANCY",
+    "entity_type": "Student",
+    "entity_id": "STU-000020",
+    "student_id": "STU-000020",
+    "expected_rule": "Student invoice balances must equal double-entry ledger net balance",
+    "actual_value": "Corrupted balance on invoice INV-STU-000020-2026-000956 creating discrepancy",
+    "severity": "HIGH"
+  }
+]
