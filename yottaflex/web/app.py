@@ -291,7 +291,6 @@ HTML_TEMPLATE = """
       </span>
       <div class="text-light small d-flex align-items-center gap-3">
         <span><i class="fa-solid fa-user-check me-1"></i> Candidate: <strong>Shaik Reena Kowsar</strong></span>
-        <span class="badge bg-success-subtle text-success border border-success px-2 py-1">Round 3: 72H Challenge</span>
       </div>
     </div>
   </nav>
@@ -841,3 +840,4 @@ HTML_TEMPLATE = """
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=False)
+
