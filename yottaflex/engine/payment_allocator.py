@@ -97,3 +97,4 @@ class PaymentAllocator:
         payment.status = PaymentStatus.SETTLED
 
         return allocations
+

@@ -628,3 +628,4 @@ class SyntheticDataGenerator:
             while chunk := f.read(65536):
                 sha256.update(chunk)
         return sha256.hexdigest()
+

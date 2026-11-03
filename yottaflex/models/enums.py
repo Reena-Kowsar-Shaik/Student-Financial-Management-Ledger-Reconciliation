@@ -110,3 +110,4 @@ class AnomalyType(str, Enum):
 class LedgerEntryType(str, Enum):
     DEBIT = "DEBIT"    # Increases student obligation (Tuition, Late Fee, Refund)
     CREDIT = "CREDIT"  # Decreases student obligation (Payment, Scholarship, Waiver)
+

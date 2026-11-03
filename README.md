@@ -242,3 +242,4 @@ d:\YottaFlex/
 * **[ARCHITECTURE.md](file:///d:/YottaFlex/ARCHITECTURE.md):** Architectural design, sequence diagrams, state machines, and technical trade-offs.
 * **[AI_COLLABORATION.md](file:///d:/YottaFlex/AI_COLLABORATION.md):** Comprehensive prompt history, AI assistance log, and candidate review points.
 * **[VALIDATION_SUMMARY.md](file:///d:/YottaFlex/VALIDATION_SUMMARY.md):** Acceptance test outputs, row counts, and checksum manifests.
+

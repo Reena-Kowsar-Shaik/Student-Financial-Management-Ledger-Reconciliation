@@ -428,3 +428,4 @@ class StudentLedgerEntry:
             "running_balance": round(self.running_balance, 2),
             "description": self.description,
         }
+

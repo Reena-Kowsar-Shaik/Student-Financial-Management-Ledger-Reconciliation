@@ -131,3 +131,4 @@ stateDiagram-v2
 1. **Multi-Currency Support:** Currently denominated exclusively in USD ($). Future iterations can integrate dynamic exchange-rate hedging for international wire tenders.
 2. **Payment Gateway Webhooks:** Current payments simulate settled status synchronously; production deployment would incorporate idempotent webhook listeners for Stripe/Adyen webhooks.
 3. **Database Scalability:** SQLite is provided for portable out-of-the-box zero-dependency evaluation; production deployment utilizes PostgreSQL with read-replicas for ledger querying.
+

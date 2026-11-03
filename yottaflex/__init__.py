@@ -5,3 +5,4 @@ Tuition Calculation, Scholarship Management, Payment Allocation, and Ledger Reco
 
 __version__ = "1.0.0"
 __author__ = "Shaik Reena Kowsar"
+

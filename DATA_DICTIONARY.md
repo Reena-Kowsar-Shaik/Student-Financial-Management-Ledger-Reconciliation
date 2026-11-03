@@ -202,3 +202,4 @@ Cash disbursements returned to students for drops, withdrawals, or credit balanc
 | `status` | ENUM | Required | `REQUESTED`, `APPROVED`, `PROCESSED`, `REJECTED` | State | Non-unique | Approval and disbursement lifecycle. |
 | `approval_notes` | STRING | Optional | Text | Notes | Non-unique | Bursar / financial aid authorization note. |
 | `issue_type` | STRING | Optional | Anomaly code or NULL | Enum | Non-unique | Ground truth label (not in features). |
+

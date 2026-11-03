@@ -236,3 +236,4 @@ class DataIntegrityValidator:
         else:
             results["checks_passed"] += 1
             results["details"]["arithmetic_reconciliation"] = {"passed": True}
+

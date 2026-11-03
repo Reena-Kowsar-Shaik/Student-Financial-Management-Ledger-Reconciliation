@@ -97,3 +97,4 @@ The `AnomalyAuditor` was evaluated against `ground_truth.json` without leaking g
 | **Invoice Generated Twice (Duplicate)** | 5 | 5 | 5 | 0 | 0 | **1.000** | **1.000** | **1.000** |
 | **Refund Exceeds Net Paid** | 5 | 5 | 5 | 0 | 0 | **1.000** | **1.000** | **1.000** |
 | **Balance Disagrees with Ledger** | 5 | 5 | 5 | 0 | 0 | **1.000** | **1.000** | **1.000** |
+
